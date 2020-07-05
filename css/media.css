@@ -1,0 +1,196 @@
+@media screen and (max-width: 768px) and (min-width: 415px) {
+
+    .container{
+        background-image: url("../img/background.png");
+        height: 1024px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container>img{
+        display: none;
+    }
+
+    .form-block {
+        max-width: 500px;
+        transform: none;
+        top: 0;
+        margin: 0;
+    }
+    .out-text {
+        font-size: 20px;
+        top: -50px;
+        right: 50px;
+    }
+    .heading {
+        height: 80px;
+    }
+    .logo {
+        width: 54px;
+        height: 54px;
+    }
+    .logo > img {
+        width: 50%;
+    }
+    .heading > h2 {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-left: 10px;
+    }
+    .forms {
+        flex-direction: column;
+    }
+
+    /*Log-in form*/
+    .log-in {
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .input-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .input-container-check {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .tooltip {
+        top: -92px;
+        left: 0;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .input-container > input[type=submit] {
+        padding: 15px 0;
+        width: 100%;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    /*Sign-in form*/
+    .sign-in {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .sign-in h3 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .sign-in>input[type=submit]{
+        padding: 15px 0;
+        width: 100%;
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .container {
+        background-image: none;
+    }
+    .container > img {
+        display: none;
+    }
+    .form-block {
+        height: 820px;
+        width: 100%;
+        min-width: 320px;
+        border: none;
+        border-radius: 0;
+        transform: none;
+        top: 0;
+        margin: 0;
+    }
+    .out-text {
+        display: none;
+    }
+    .heading {
+        border-radius: 0;
+        height: 80px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin: 0 15px;
+    }
+    .logo > img {
+        height: 25px;
+    }
+    .heading > h2 {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .forms {
+        flex-direction: column;
+    }
+
+    /*Log-in form*/
+    .log-in {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .logo-top {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .log-in .form-control > input {
+        border-radius: 10px;
+        padding: 15px 0 15px 20px;
+    }
+    .log-in small {
+        margin-bottom: 10px;
+    }
+    .input-container-check {
+        font-size: 16px;
+    }
+    .tooltip {
+        position: absolute;
+        top: -84px;
+        left: 0;
+    }
+    .input-container > input[type=submit] {
+        border-radius: 10px;
+        padding: 10px 50px;
+        font-weight: 600;
+    }
+
+    /*Sign-in form*/
+    .sign-in {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .sign-in h3 {
+        font-size: 25px;
+        text-align: center;
+        background-image: url("../img/Layer5.png");
+        background-size: 100% 1px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .sign-in label {
+        font-size: 16px;
+        font-weight: 400;
+        color: #999999;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .sign-in .form-control > input {
+        border-radius: 10px;
+    }
+    .sign-in > input[type=submit] {
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        width: 100%;
+    }
+}
